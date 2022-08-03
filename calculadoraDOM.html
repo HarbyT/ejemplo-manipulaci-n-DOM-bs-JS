@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación del DOM Básica - curso básico de JavaScript</title>
+</head>
+<body>
+    <h1>Manipulación del DOM Básica</h1>
+
+    <input type="radio" name="operación" id="sum" checked><label for="sum">Sumar</label>
+    <input type="radio" name="operación" id="res"><label for="res">Restar</label>
+    <input type="radio" name="operación" id="mul"><label for="mul">Multiplicar</label>
+    <input type="radio" name="operación" id="div"><label for="div">Dividir</label>
+    <br><br>
+    <input id="calculo1" placeholder="Escribe el primer número">
+    <br> <br>
+    <input id="calculo2" onchange="console.log('cambió el input')" placeholder="Escribe el segundo número">
+    <br><br>
+    <button id="btnCalcular">Calcular</button>
+
+    <p id="resultadoCalculo"></p>
+<script src="./script.js"></script>
+</body>
+</html>
